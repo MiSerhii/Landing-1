@@ -52,34 +52,47 @@ table {
 
 header {
 	padding: 50px 40px 50px 40px;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 100px 30px;
+	grid-gap: 20px;
 }
 
-h1 {
+header::before {
+	display: block;
+	width: 1280px;
+	content: '';
+	position: absolute;
+	border-bottom: 2px solid rgb(75, 57, 57);
+}
+
+.hat1 {
+	text-align: left;
+	margin: 20px 0px 20px 0px;
+}
+
+.hat2 {
+	margin: auto;
 	font-family: DK Courant, serif;
 	font-size: 90px;
 	color: rgb(75, 57, 57);
 }
 
-h2 {
-	font-family: OldNewspaperTypes;
+.hat3 {
+	text-align: right;
+	margin: 20px 0px 20px 0px;
 }
 
-.hat-1 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.hat4 {
+
+}
+
+.hat5 {
 	margin: auto;
-	height: 120px;
-	border-top: 2px solid rgb(68, 64, 64);
-	border-bottom: 2px solid rgb(68, 64, 64);
+}
 
-	&_left-part {
-
-	}
-
-	&_right-part {
-	
-	}
+.hat6 {
+	text-align: right;
 }
 
 .hat-2 {
@@ -92,11 +105,14 @@ h2 {
 }
 
 .main-info {
-	margin-left: 50px;
-	margin-right: 50px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 200px 200px;
+	grid-gap: 20px;
+	
+	&_block1{
+
+	}
 }
 
 .block1 {
