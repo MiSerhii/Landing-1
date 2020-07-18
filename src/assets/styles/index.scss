@@ -44,6 +44,42 @@ table {
 
 /*----------------------------------------------------CODE---------------------------------------------------*/
 
+// connecting fonts
+
+@font-face {
+    font-family: dk courant;
+    src: url(/src/assets/fonts/dk/courant.ttf);
+}
+
+.courant {
+	font-family: dk courant, Arial, sans-serif;
+	font-size: 90px;
+	color: rgb(75, 57, 57);
+}
+
+@font-face {
+    font-family: fontcafe;
+    src: url(/src/assets/fonts/fontscafe.ttf);
+}
+
+.fontcafe {
+	font-family: fontcafe;
+	color: rgb(75, 57, 57);
+}
+
+@font-face {
+    font-family: oldnewpaper;
+    src: url(/src/assets/fonts/oldnewspapertypes.ttf);
+}
+
+.oldnewspaper {
+	font-family: oldnewpaper;
+	color: rgb(75, 57, 57);
+	font-size: 1em;
+}
+
+// end fonts connect
+
 .container {
 	margin: auto;
 	background-image: url(/src/assets/images/background-image.jpg);
@@ -107,6 +143,7 @@ header {
 	&_ed-news {
 		text-align: center;
 		margin-bottom: 10px;
+		font-size: 74px;
 	}
 
 	&_auto-pic {
@@ -214,6 +251,10 @@ header {
 		margin-bottom: 20px;
 		border: 4px double rgb(75, 57, 57);
 		outline: 2px solid rgb(75, 57, 57);
+	}
+
+	&_title {
+		font-size: 49px;
 	}
 
 	&_all-info {
