@@ -81,16 +81,24 @@ header {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		margin: 20px 40px;
+		margin: 20px 10px 20px 40px;
 	}	
 
 	&_block2 {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		margin: 20px 40px;
+		margin: 20px 10px;
+	}
+
+	&_block3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 20px 40px 20px 10px;
 	}
 }
+
 
 .block1_part1 {
 	text-align: center;
@@ -172,6 +180,43 @@ header {
 	}
 
 	&_headline {
+		padding: 10px 0px;
+		border-top:  3px solid rgb(75, 57, 57);
+		border-bottom:  3px solid rgb(75, 57, 57);
+	}
+}
+
+.block2_container {
+	text-align: center;
+	word-break: break-all;
+
+	&_read-about {
+		padding: 10px 0px;
+		border-top:  3px solid rgb(75, 57, 57);
+		border-bottom:  3px solid rgb(75, 57, 57);
+	}
+
+	&_imortant-text {
+		width: 100%;
+	}
+
+	&_phone-pic {
+		border: 4px double rgb(75, 57, 57);
+		outline: 2px solid rgb(75, 57, 57);
+	}
+}
+
+.block3_container {
+	text-align: center;
+	word-break: break-all;
+
+	&_text-mach {
+		margin-bottom: 20px;
+		border: 4px double rgb(75, 57, 57);
+		outline: 2px solid rgb(75, 57, 57);
+	}
+
+	&_all-info {
 		padding: 10px 0px;
 		border-top:  3px solid rgb(75, 57, 57);
 		border-bottom:  3px solid rgb(75, 57, 57);
