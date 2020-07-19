@@ -1,0 +1,63 @@
+@font-face {
+    font-family: dk courant;
+    src: url(/src/assets/fonts/dk/courant.ttf);
+}
+
+.courant {
+	font-family: dk courant;
+	color: rgb(75, 57, 57);
+}
+
+@font-face {
+    font-family: fontcafe;
+    src: url(/src/assets/fonts/fontscafe.ttf);
+}
+
+.fontcafe {
+	font-family: fontcafe;
+	color: rgb(75, 57, 57);
+}
+
+@font-face {
+    font-family: oldnewpapertypes;
+    src: url(/src/assets/fonts/oldnewspapertypes.ttf);
+}
+
+.oldnewspaper {
+	font-family: oldnewpapertypes;
+	color: rgb(75, 57, 57);
+}
+
+@font-face {
+	font-family: averiaserif;
+	src: url(/src/assets/fonts/averiaserif-light.ttf);
+}
+
+.averiaserif {
+	font-family: averiaserif;
+	color: rgb(75, 57, 57);
+}
+
+p, span {
+	font-family: averiaserif;
+	color: rgb(75, 57, 57);
+}
+
+.container {
+	margin: auto;
+	background-image: url(/src/assets/images/background-image.jpg);
+	max-width: 1360px;
+}
+
+.duo-line {
+	padding: 3px;
+	border-top: 3px solid rgb(75, 57, 57);
+	border-bottom: 2px solid rgb(75, 57, 57);
+	margin-bottom: 15px;
+}
+
+.star-icon {
+	padding: 0px 10px;
+}
+
+

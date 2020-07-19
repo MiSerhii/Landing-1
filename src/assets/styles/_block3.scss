@@ -1,0 +1,33 @@
+.block3_container {
+	text-align: center;
+	word-break: break-all;
+
+	&_text-mach {
+		margin-bottom: 20px;
+		padding: 5px;
+		border: 6px double rgb(75, 57, 57);
+		outline: 3px solid rgb(75, 57, 57);
+	}
+
+	&_title {
+		font-size: 49px;
+	}
+
+	&_all-info {
+		padding: 10px 0px;
+		border-top:  3px solid rgb(75, 57, 57);
+		border-bottom:  3px solid rgb(75, 57, 57);
+		font-size: 25px;
+	}
+
+	&_old-paper {
+		margin-bottom: 10px;
+		font-size: 50px;
+	}
+
+	&_retro-style {
+		display: flex;
+		text-align: center;
+		font-size: 23px;
+	}
+}

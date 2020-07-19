@@ -1,0 +1,84 @@
+.block1_part1 {
+	text-align: center;
+	word-break: break-all;
+
+	&_ed-news {
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 74px;
+	}
+
+	&_auto-pic {
+		vertical-align: top;
+		float: left;
+		margin-right: 10px;
+		padding: 5px;
+		border: 6px double rgb(75, 57, 57);
+		outline: 3px solid rgb(75, 57, 57);
+	}
+
+	&_super-car {
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 34px;
+	}
+}
+
+.block1_part2 {
+	display: flex;
+	flex-direction: column;
+
+	&_extra-news {
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 50px;
+	}
+
+	&_world-tour {
+		display: flex;
+		margin-bottom: 5px;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	&_article {
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+	&_camera-pic {
+		vertical-align: right;
+		float: right;
+		margin: 20px;
+		padding: 5px;
+		border: 6px double rgb(75, 57, 57);
+		outline: 3px solid rgb(75, 57, 57);
+	}
+
+	&_text {
+		text-align: center;
+		word-break: break-all;
+	}	
+}
+
+.block1_part3 {
+	display: flex;
+	justify-content: space-between;
+	word-break: break-all;
+	text-align: center;
+
+	&_wedding-pic {
+		margin-right: 20px;
+		padding: 5px;
+		border:  4px solid rgb(75, 57, 57);
+	}
+
+	&_headline {
+		padding: 10px 0px;
+		border-top:  3px solid rgb(75, 57, 57);
+		border-bottom:  3px solid rgb(75, 57, 57);
+		font-size: 39px;
+	}
+}
+
+
