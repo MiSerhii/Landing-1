@@ -8,9 +8,10 @@
 	padding: 15px 0px;
 	border-top: 2px solid rgb(75, 57, 57);
 	text-align: center;
+	font-weight: bold;
 
 	&_descr {
-		margin: none;
+		margin: 10px 0px;
 	}
 
 	&_papername {
@@ -19,8 +20,22 @@
 
 	&_serial {
 		font-size: 20px;
-		font-weight: bold;
+		margin: 10px 0px;
 	}
+}
+
+.circulation {
+	font-size: 20px;
+}
+
+.quantity {
+	font-size: 12px;
+	margin: 5px;
+}
+
+.publisher {
+	font-size: 8px;
+	margin: 5px;
 }
 
 &_part2 {
