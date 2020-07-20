@@ -2,25 +2,37 @@
 	text-align: center;
 	word-break: break-all;
 
-	&_ed-news {
-		text-align: center;
-		margin-bottom: 10px;
-		font-size: 74px;
+&_ed-news {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 74px;
+
+	@media (max-width: 1024px) {
+		font-size: 48px;
+		}
 	}
 
-	&_auto-pic {
-		vertical-align: top;
-		float: left;
-		margin-right: 10px;
-		padding: 5px;
-		border: 6px double rgb(75, 57, 57);
-		outline: 3px solid rgb(75, 57, 57);
+&_auto-pic {
+	vertical-align: top;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border: 6px double rgb(75, 57, 57);
+	outline: 3px solid rgb(75, 57, 57);
+
+	@media (max-width: 1024px) {
+		float: none;
+		}
 	}
 
-	&_super-car {
-		text-align: center;
-		margin-bottom: 10px;
-		font-size: 34px;
+&_super-car {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 34px;
+
+	@media (max-width: 1024px) {
+	padding-top: 10px;
+		}
 	}
 }
 
@@ -28,37 +40,54 @@
 	display: flex;
 	flex-direction: column;
 
-	&_extra-news {
-		margin-bottom: 10px;
+&_extra-news {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 50px;
+	}
+
+&_world-tour {
+	display: flex;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 30px;
+	}
+
+&_article {
+	justify-content: space-between;
+	margin-bottom: 20px;
+	}
+
+&_camera-pic {
+	vertical-align: right;
+	float: right;
+	margin: 20px;
+	padding: 5px;
+	border: 6px double rgb(75, 57, 57);
+	outline: 3px solid rgb(75, 57, 57);
+	
+	@media (max-width: 1024px) {
+		float: none;
 		text-align: center;
-		font-size: 50px;
 	}
+}
 
-	&_world-tour {
-		display: flex;
-		margin-bottom: 5px;
-		text-align: center;
-		font-size: 30px;
-	}
+&_text {
+	text-align: center;
+	word-break: break-all;
 
-	&_article {
-		justify-content: space-between;
-		margin-bottom: 20px;
-	}
-
-	&_camera-pic {
-		vertical-align: right;
-		float: right;
-		margin: 20px;
-		padding: 5px;
-		border: 6px double rgb(75, 57, 57);
-		outline: 3px solid rgb(75, 57, 57);
-	}
-
-	&_text {
-		text-align: center;
-		word-break: break-all;
+	@media (max-width: 1024px) {
+		font-size: 11px;
+		}
 	}	
+}
+
+.wrld-t {
+	
+	@media (max-width: 1024px) {
+		padding: 5px;
+		font-size: 19px;
+	}
 }
 
 .block1_part3 {
@@ -67,18 +96,34 @@
 	word-break: break-all;
 	text-align: center;
 
-	&_wedding-pic {
-		margin-right: 20px;
-		padding: 5px;
-		border:  4px solid rgb(75, 57, 57);
+	@media (max-width: 1200px) {
+		flex-direction: column;
 	}
 
-	&_headline {
-		padding: 10px 0px;
-		border-top:  3px solid rgb(75, 57, 57);
-		border-bottom:  3px solid rgb(75, 57, 57);
-		font-size: 39px;
+&_wedding-pic {
+	margin-right: 20px;
+
+
+	@media (max-width: 1200px) {
+		margin-bottom: 10px;
+		border: none;
 	}
 }
 
+&_wp-bord {
+	padding: 5px;
+	border:  4px solid rgb(75, 57, 57);
 
+	@media (max-width: 1200px) {
+	border:  4px solid rgb(75, 57, 57);
+	padding: 5px;
+	}
+}
+
+&_headline {
+	padding: 10px 0px;
+	border-top:  3px solid rgb(75, 57, 57);
+	border-bottom:  3px solid rgb(75, 57, 57);
+	font-size: 39px;
+	}
+}

@@ -2,37 +2,59 @@
 	text-align: center;
 	word-break: break-all;
 
-	&_tawn-hall {
-		font-size: 44px;
+&_tawn-hall {
+	font-size: 44px;
+
+	@media (max-width: 1024px) {
+	font-size: 33px;
+		}
+	}	
+
+&_read-about {
+	font-size: 34px;
+	padding: 10px 0px;
+	border-top:  3px solid rgb(75, 57, 57);
+	border-bottom:  3px solid rgb(75, 57, 57);
+
+	@media (max-width: 1024px) {
+		margin: 20px 0px;
+		font-size: 26px;
+		}
 	}
 
-	&_read-about {
-		font-size: 34px;
-		padding: 10px 0px;
-		border-top:  3px solid rgb(75, 57, 57);
-		border-bottom:  3px solid rgb(75, 57, 57);
+&_imortant-text {
+	width: 100%;
 	}
 
-	&_imortant-text {
-		width: 100%;
+&_phone-pic {
+	padding: 5px;
+	border: 6px double rgb(75, 57, 57);
+	outline: 3px solid rgb(75, 57, 57);
 	}
 
-	&_phone-pic {
-		padding: 5px;
-		border: 6px double rgb(75, 57, 57);
-		outline: 3px solid rgb(75, 57, 57);
+&_phone {
+	font-size: 42px;
+	
+	@media (max-width: 1024px) {
+		font-size: 31px;
+		}
 	}
 
-	&_phone {
-		font-size: 42px;
+&_number {
+	font-size: 45px;
+
+	@media (max-width: 1024px) {
+		font-size: 25px;
+		}
 	}
 
-	&_number {
-		font-size: 45px;
-	}
+&_work-time {
+	font-size: 22px;
+	margin: 10px;
 
-	&_work-time {
-		font-size: 22px;
-		margin: 10px;
+	@media (max-width: 1024px) {
+		font-size: 13px;
+		margin: 7px 0px;
+		}
 	}
 }

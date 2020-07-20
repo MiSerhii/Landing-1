@@ -10,32 +10,53 @@
 	text-align: center;
 	font-weight: bold;
 
-	&_descr {
-		margin: 10px 0px;
-	}
+&_descr {
+	margin: 10px 0px;
+}
 
-	&_papername {
-		font-size: 90px;
-	}
+&_papername {
+	font-size: 90px;
 
-	&_serial {
-		font-size: 20px;
-		margin: 10px 0px;
+	@media (max-width: 1024px) {
+		font-size: 65px;
+		padding-top: 10px;
+	}
+}
+
+&_serial {
+	font-size: 20px;
+	margin: 10px 0px;
+
+	@media (max-width: 1024px) {
+		font-size: 15px;
+		}
 	}
 }
 
 .circulation {
 	font-size: 20px;
+
+	@media (max-width: 1024px) {
+		font-size: 15px;
+	}
 }
 
 .quantity {
 	font-size: 12px;
 	margin: 5px;
+
+	@media (max-width: 1024px) {
+		font-size: 7px;
+	}
 }
 
 .publisher {
 	font-size: 8px;
 	margin: 5px;
+
+	@media (max-width: 1024px) {
+		font-size: 5px;
+	}
 }
 
 &_part2 {
@@ -47,5 +68,9 @@
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
+
+	@media (max-width: 1025px) {
+		font-size: 15px;
+		}
 	}
 }
